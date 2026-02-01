@@ -37,7 +37,7 @@ std::string Backend::hash_password(const char* password) {
 			database["users"] = json::array();
 		}
 
-		for (auto& user : database["users"]) {
+		for (const auto& user : database["users"]) {
 			if (user["username"] == name) {
 				return false;
 			}
