@@ -2,7 +2,7 @@
 
 A modern C++ project providing a simple and secure **login and registration interface** with additional UI features like a calculator and settings windows.
 
-![Login UI Screenshot](screenshots/login_ui.png)
+![Login UI Screenshot](ui_screenshot.png)
 
 ## Table of Contents
 - [Description](#description)
